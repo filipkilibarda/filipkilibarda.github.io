@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+{% for post in site.posts reversed %}
+    {% include post_description.html post=post %}
+{% endfor %}

@@ -1,0 +1,154 @@
+$width: 700px;
+$font: 'Inconsolata', monospace;
+
+$code-background-color: #2b2b2b;
+$background-color: #131313;
+// $background-color: #333333; // UBC CTF website
+
+$dim-font-color: #7b7b7b;
+$medium-font-color: #e4e4e4;
+$bright-font-color: #ececec;
+$body-font-color: #b7b7b7;
+$code-block-font-color: #d2d2d2;
+$code-inline-font-color: #ffffff;
+$strong-font-color: #ffffff;
+
+$brightness-reduction: 50%;
+
+$base-font-size: 14px;
+
+
+
+
+html {
+    background: $background-color;
+    font-family: $font;
+    font-size: $base-font-size;
+    color: $body-font-color;
+    line-height: 1.5em;
+
+    .container {
+        @media (min-width: $width) {
+            width: $width;
+            margin: 0 auto 10em auto;
+        }
+        @media (max-width: $width) {
+            width: 100%;
+        } 
+    }
+
+    header {
+        margin: 3em 0 5em 0;
+        nav {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            a {
+                text-decoration: none;
+                margin: auto 0.5em; 
+                .logo {
+                    width: 25px;
+                    filter: brightness(80%);
+                }
+            }
+        }
+    }
+
+    .post-description {
+        .subtitle {
+            font-size: 0.9em;
+            color: $dim-font-color;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        margin-bottom: 1.5em;
+    }
+
+    a {
+        text-decoration: underline;
+        color: $medium-font-color;
+        &:hover {
+            filter: brightness($brightness-reduction);
+        }
+    }
+
+    p {
+        padding: .3em 0 .3em 0;
+        color: $body-font-color;
+    }
+
+    h1 {
+        margin: 1.7em 0 1em 0;
+    }
+
+    pre.highlight {
+        code {
+            color: $code-block-font-color;
+        }
+        background: $code-background-color;
+        padding: 1em;
+        border-radius: .2em;
+        font-size: .9em;
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+
+    code.language-plaintext {
+        background: $code-background-color;
+        color: $code-inline-font-color;
+        padding: .2em .5em .2em .5em;
+        border-radius: .3em;
+        font-size: .9em;
+    }
+
+    strong {
+        color: $strong-font-color;
+    }
+
+    kbd {
+        margin: 0 0.125em;
+        padding: 0.22em 0.5em;
+        // color: #d6d6d6;
+        border: 1px solid #404040;
+        border-radius: 3px;
+        font-size: 85%;
+        text-shadow: 0 1px 0 #424242;
+        box-shadow: 0 1px 0 #525252, inset 0 0 0 2px #2d2d2d;
+    }
+
+    img {
+        max-width: 100%;
+        @media (min-width: $width) {
+            &.img-right {
+                float: right;
+                width: 50%;
+                padding: 1em 0em 1em 1em;
+            }
+            &.img-left {
+                float: left;
+                width: 50%;
+                padding: 1em 1em 1em 0em;
+            }
+        }
+        @media (max-width: $width) {
+            margin: auto;
+        }
+    }
+
+    figure {
+        margin: 1em 1em 1em 1em;
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            font-size: 0.85em;
+            padding: 0.5em 2em 1em 2em;
+        }
+    }
+
+    .reduce-brightness { filter: brightness(75%); }
+    .reduce-brightness-85 { filter: brightness(85%);}
+}
