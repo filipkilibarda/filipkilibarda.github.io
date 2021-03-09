@@ -7,16 +7,14 @@ layout: default
  
  
 Welcome to my personal website! This serves as a platform for me to write about my various projects and to host my CTF writeups!
- 
+
 A little about my academic and professional experience:
  
-I have a BSc in Computer Science from the University of British Columbia. I also took many courses in Physics (Relativity, Thermodynamics, etc) and honours courses in Math (Calculus, Differential equations, etc). Post-grad I spent two years doing self directed study in cyber security with professor Robert Xiao, competing in international CTF competitions, helping to establish the CTF community at UBC and doing some research in binary symbolic execution.
+I have a BSc in Computer Science from the University of British Columbia. My early years at university were focused on Physics, Astronomy, Math and Atmospheric Science. I later transitioned to Computer Science when I figured out how much I liked it.
 
-I was very lucky to work at the awesome Vancouver based company 3vGeomatics, a geotechnical safety startup using emerging radar satellite tech. They gave me so much responsibility, allowing me to grow as an engineer like I probably wouldn't have anywhere else. I designed & developed high reliability service oriented systems that enabled ops to handle 3x growth in # of clients. 50% of company employees depend on the high reliability of my systems for everyday duties of delivering geotechnical safety monitoring data to customers. Knowing that my work is useful to someone is one of the most important aspects of my job satisfaction.
- 
-My first internship was with the Weather Forecast Research Team at UBC. My first project was to conduct a statistical analysis on several years of temperature forecast data in critical areas with hydroelectric dams that need to accurately know if the rivers will freeze in the coming days. I was thrown into the deep end, given 5+ GB of data, and told "figure it out!". It was pretty exciting for me as everything was so new. I had to learn so much. In the end, I produced a report for BC Hydro describing the atmospheric phenomena responsible for the extreme temperature fluctuations, along with a statistical analysis of the optimal parameters for their temperature forecast correction algorithm. After that, I designed a system to visually summarize weather forecasts into icons. I credit this internship with prompting my switch into the field of computer science :)
- 
-I originally started my university education in physics, astronomy and mathematics. I studied these subjects for 2 years, eventually finding that the highly theoretical nature of them wasn't suited for the practical side of myself. I learned that at heart I'm more of an engineer than a theorist. However, my love for understanding the fundamental laws of nature still greatly persists, just not in a professional sense.
+I have experience in academic research and in startups developing backend systems that required high availability/reliability. 
+
+I also spent 2 years competing with and establishing the UBC CTF Team. This experience gave me the opportunity to dive deep into the complexities of computer systems and to share in that learning experience with a community of passionate people. As I learned more, I took to teaching in order to pass on my knowledge to newer members.
 
 <br id="climbing">
  
